@@ -1,7 +1,7 @@
 # FAMDUniversity
 Progetto di Programmazione Web - UNICAM (Università degli Studi di Camerino)
 
-Il progetto consiste nella realizzazione di un sito web riguardante il piano di studi di un'Università. All'interno sono presenti cinque facoltà: Informatica, Chimica e Fisica.
+Il progetto consiste nella realizzazione di un sito web riguardante il piano di studi di un'Università. All'interno sono presenti tre facoltà: Informatica, Chimica e Fisica.
 
 Nel complesso sono presenti tre attori principali, ciascuno con funzioni differenti:
 
@@ -72,23 +72,21 @@ Per installare MongoDB basta cliccare sul seguente link https://www.mongodb.com/
 
 # Utilizzo
 
-1. Aprire la cartella contenente il progetto
+1. Scaricare e aprire la cartella contenente il progetto
 
-2. Rinominare la cartella "Cartella file node" in "node_modules"
+2. Se si vuole utilizzare il proprio database aprire il file .env e sostituire a DB_URI il percorso del proprio server (DB_URI=”mongodb://FAMD:UniCam1996@ds251807.mlab.com:51807/famduniversityPORT=”27017)
 
-3. Se si vuole utilizzare il proprio server aprire il file .env e sostituire a DB_URI il percorso del proprio server
-(DB_URI="mongodb://FAMD:UniCam1996@ds251807.mlab.com:51807/famduniversity
-PORT="27017)
+3. Aprire il terminale node.js come amministratore e posizionarsi nel percorso della cartella del progetto (cd...)
 
 4. Eseguire il comando “nodemon server.js” per avviare il server
 
- #In caso di problemi
+5. Connettersi a http://localhost... per visualizzare il sito 
 
-5. Eliminare la cartella "node_modules"
+In caso di problemi
 
-6. Aprire il programma node.js command prompt come amministratore
+6. Eliminare la cartella “node_modules”
 
-7. Posizionarsi nel percorso della cartella del progetto
+7. Aprire il terminale node.js come amministratore e posizionarsi nel percorso della cartella del progetto (cd...)
 
 8. Eseguire i seguenti comandi in ordine:
 
@@ -103,3 +101,6 @@ PORT="27017)
    e) npm install
 
 9. Eseguire il comando “nodemon server.js” per avviare il server
+
+10. Connettersi a http://localhost... per visualizzare il sito
+

@@ -588,11 +588,11 @@ angular.module("starter")
 
   function Main($scope) {
     $scope.carriera.carriera;
-    $scope.carriera.msg.chimica;
+    $scope.carriera.msg.computer_science;
+    $scope.carriera.msg.fisica;
+    $scope.carriera.msg.analisi;
     $scope.carriera.msg.biochimica;
-    $scope.carriera.msg.chimica_organica;
-    $scope.carriera.msg.chimica_analitica;
-    $scope.carriera.msg.chimica_alimenti;
+    $scope.carriera.msg.inglese;
   }
 
   $scope.logout = function() {
@@ -646,7 +646,7 @@ angular.module("starter")
 
   function Main($scope) {
     $scope.carriera.carriera;
-    $scope.carriera.msg.meccanica;
+    $scope.carriera.msg.logica;
     $scope.carriera.msg.geometria;
     $scope.carriera.msg.fisica;
     $scope.carriera.msg.elettromagnetismo;
