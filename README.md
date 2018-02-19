@@ -128,4 +128,12 @@ $ git push heroku master
 
 # Link
 
-Heroku: https://famduniversity.herokuapp.com
+App deployata su Heroku: https://famduniversity.herokuapp.com
+
+Video Youtube: https://youtu.be/Aq7jV5Uz4Hw
+
+Testo progetto/slides: https://drive.google.com/drive/folders/1OjN2A_wrk5R4NlJlYOlp0wktIbgRZ1qk
+
+
+
+
