@@ -72,6 +72,8 @@ Per installare MongoDB basta cliccare sul seguente link https://www.mongodb.com/
 
 # Utilizzo
 
+# In locale
+
 1. Scaricare e aprire la cartella contenente il progetto
 
 2. Se si vuole utilizzare il proprio database aprire il file .env e sostituire a DB_URI il percorso del proprio server (DB_URI=”mongodb://FAMD:UniCam1996@ds251807.mlab.com:51807/famduniversityPORT=”27017)
@@ -104,3 +106,25 @@ In caso di problemi
 
 10. Connettersi a http://localhost... per visualizzare il sito
 
+# Heroku
+
+Installare Heroku CLI
+
+$ heroku login
+
+Clonare il repository
+
+$ heroku git:clone -a famduniversity
+$ cd famduniversity
+
+Deploy
+
+$ git add
+
+$ git commit -am "make it better"
+
+$ git push heroku master
+
+# Link
+
+Heroku: https://famduniversity.herokuapp.com
