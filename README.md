@@ -108,17 +108,17 @@ In caso di problemi
 
 # Heroku
 
-Installare Heroku CLI
+-Installare Heroku CLI
 
 $ heroku login
 
-Clonare il repository
+-Clonare il repository
 
 $ heroku git:clone -a famduniversity
 
 $ cd famduniversity
 
-Deploy
+-Deploy
 
 $ git add
 
