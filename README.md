@@ -122,7 +122,7 @@ $ cd famduniversity
 
 $ git add
 
-$ git commit -am "make it better"
+$ git commit -am 
 
 $ git push heroku master
 
